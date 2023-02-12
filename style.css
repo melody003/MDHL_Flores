@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+body{
+    font-size: 2rem;
+    background-color: #eae2df;
+}
+
+/* bordes */
+article{
+    border-radius: 5%;
+    display: inline-block;
+    position: relative;
+    background-color: #eae2df;
+}
+
+article h3, p{
+    font-size: 1.5rem;
+    padding: 5px;
+}
+
+
+h1{
+    background-color: #ce472a;
+    font-size: 4rem;
+    color: #f5f0ee;
+}
+
+h2{
+    padding: 0;
+    display: block;
+    text-align: center;
+    background-color: #ce472a;
+    color: #f5f0ee;
+    font-size: 2rem;
+}
+
+.caja1{
+    object-fit: contain;
+    position: relative;
+}
+
+nav{
+    width: max-content;
+    position: absolute;
+    left: 77%; top: -5px;
+}
+
+#banner{
+    height: 50%;
+    width: 100%;
+    object-fit: fill;
+}
+
+.boton{
+    width: 90px;
+    height: 40px;
+    color: brown;
+    font-size: 0.5rem;
+}
+
+.texto{ 
+    width: 70vw;
+    height: 80vh;
+    display: inline-block;
+    position: relative;
+}
+
+.caja_logo{
+    padding: 10px;
+    display: inline-block;
+    position: relative;
+    width: 15vw;
+    height: 40vh;
+    border-radius: 10%;
+}
+
+.logo{
+    height: 100%;
+    width: 80%;
+    position: relative;
+    object-fit: cover;
+    margin-left: 15px;
+}
+
+#info{
+    background-image: url(./assets/hockey_1.jpg);
+    min-height: 100vh;
+    background-repeat: no-repeat;
+}
+
