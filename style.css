@@ -2,11 +2,10 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-size: 10px;
 }
 
 body{
-    font-size: 2rem;
+    font-size: 10px;
     background-color: #eae2df;
 }
 
@@ -22,7 +21,7 @@ article{
 }
 
 article h3, p{
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     padding: 5px;
     background-color: #eae2df;
     border-radius: 5px;
@@ -30,17 +29,17 @@ article h3, p{
 
 
 h1{
-    font-size: 5rem;
+    font-size: 4rem;
     color: #f5f0ee;
 }
 
 h2{
-    padding: 0;
-    display: block;
+    display: flex;
+    justify-content: center;
     text-align: center;
     color: #f5f0ee;
     background-color: #ce472a;
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 nav{
@@ -98,11 +97,13 @@ a:hover{
     display: flex;
     height: max-content;
     flex-direction: column;
-    margin-left: 20rem ; margin-right: 5rem;
+    margin-left: 10rem ; margin-right: 5rem;
 } 
 
 .texto_about{
-    font-size: 2.5rem;
+    margin-left: 10px;
+    display: flex;
+    justify-content: flex-start;
 }
 
 .info{
@@ -120,7 +121,7 @@ a:hover{
     display: flex;
     height: max-content;
     flex-direction: column;
-    margin-left: 20rem ; margin-right: 5rem;
+    margin-left: 10rem ; margin-right: 5rem;
 }
 
 .info2{
@@ -144,6 +145,104 @@ a:hover{
 #email{
     display: flex;
     flex-direction: column;
-    margin-left: 20rem ; margin-right: 5rem;
+    margin-left: 10rem ; margin-right: 5rem;
     z-index: 3;
+}
+
+/*Game info */
+table{
+    margin: 5rem;
+    width: 70vw;
+    height: 50vh;
+    border-collapse: collapse;
+    border: 2px solid black;
+    font-size: 20rem;
+    text-align: center;
+}
+
+th{
+    font-size: 2.5rem;
+}
+
+td{
+    font-size: 2rem;
+}
+
+aside{
+    display: flex;
+    justify-content: flex-start;
+    height: max-content;
+    flex-direction: column;
+}
+
+aside p, b{
+    font-size: 2rem;
+    display: flex;
+
+}
+
+aside div{
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: row;
+}
+
+#dat_cont1{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-right: 70rem;
+}
+
+
+#gameinfo{
+    background-color: #ce472a;
+    text-align: center;
+}
+
+#unp{
+    margin-top: 0.5rem;
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+/* RULES*/
+.caja_section{
+    display: flex;
+    flex-direction: column;
+}
+
+.reglas{
+    font-size: 5rem;
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+}
+
+.general{
+    list-style-position: outside;
+    margin: 20px;
+    font-size: 1rem;
+}
+
+ol{
+    list-style-type: square;
+}
+
+dd, ul, ol{
+    margin: 10px;
+}
+
+dt{
+    font-weight: bold;
+}
+
+#h3rules{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.data{
+    background-color: #f78668;
+    border-radius: 5px;
 }
