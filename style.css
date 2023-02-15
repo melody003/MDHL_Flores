@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-size: 15px;
+    font-size: 10px;
 }
 
 body{
@@ -10,23 +10,27 @@ body{
     background-color: #eae2df;
 }
 
+header{
+    background-color: #ce472a;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(146,145,200,1) 0%, rgba(9,9,121,1) 0%, rgba(6,78,166,1) 0%, rgba(7,62,156,1) 0%, rgba(6,87,172,1) 0%, rgba(4,134,203,1) 0%, rgba(2,165,224,1) 0%, rgba(1,190,241,1) 0%, rgba(206,71,42,1) 0%, rgba(77,80,101,1) 69%);
+}
 /* bordes */
 article{
     border-radius: 5%;
     display: inline-block;
     position: relative;
-    background-color: #eae2df;
 }
 
 article h3, p{
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     padding: 5px;
+    background-color: #eae2df;
+    border-radius: 5px;
 }
 
 
 h1{
-    background-color: #ce472a;
-    font-size: 4rem;
+    font-size: 5rem;
     color: #f5f0ee;
 }
 
@@ -34,30 +38,30 @@ h2{
     padding: 0;
     display: block;
     text-align: center;
-    background-color: #ce472a;
     color: #f5f0ee;
-    font-size: 2rem;
-}
-
-.caja1{
-    object-fit: contain;
-    position: relative;
+    background-color: #ce472a;
+    font-size: 3rem;
 }
 
 nav{
-    width: max-content;
-    position: absolute;
-    left: 75%; top: -5px;
-    z-index: 3;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0.5rem;
+
 }
 
 nav a{
-    font-size: 1.5rem;
-    color: white;
-    border: 1px solid black;
+    margin: 0.5rem;
+    font-size: 2rem;
+    color: #f5f0ee;
     background-color: #535980;
-    margin-left: 0.5rem;
-
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center; 
 }
 
 a:hover{
@@ -72,48 +76,51 @@ a:hover{
     object-fit: cover;
 }
 
-.boton{
-    width: 90px;
-    height: 40px;
-    color: brown;
-    font-size: 0.5rem;
-}
-
-.texto{ 
-    width: 70vw;
-    height: 80vh;
-    display: inline-block;
-    position: relative;
-}
-
 .caja_logo{
     padding: 10px;
-    display: inline-block;
-    position: relative;
+    position: absolute;
+    z-index: 3;
     width: 15vw;
     height: 40vh;
     border-radius: 10%;
+    
 }
 
 .logo{
     height: 100%;
     width: 80%;
-    position: relative;
     object-fit: cover;
     margin-left: 15px;
+}
+
+
+.about{
+    display: flex;
+    height: max-content;
+    flex-direction: column;
+    margin-left: 20rem ; margin-right: 5rem;
+} 
+
+.texto_about{
+    font-size: 2.5rem;
 }
 
 .info{
     background-image: url(./assets/hockey_1.jpg);
     height: 100vh;
+    display: flex;
+    flex-direction: column;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
-.about{
-    display: inline-block;
-    position: absolute;
+#fechas{
+    font-size: 2.5rem;
+    display: flex;
+    height: max-content;
+    flex-direction: column;
+    margin-left: 20rem ; margin-right: 5rem;
 }
 
 .info2{
@@ -122,6 +129,7 @@ a:hover{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    display: flex;
 }
 
 .info3{
@@ -130,10 +138,12 @@ a:hover{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    display: flex;
 }
 
 #email{
-    display: inline-block;
-    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20rem ; margin-right: 5rem;
     z-index: 3;
 }
