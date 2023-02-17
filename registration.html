@@ -12,8 +12,20 @@
     <title>Registration Form</title>
 </head>
 <body>
+    <header>
+        <h1>Mighty Dogs Hockey League</h1>
+            <nav>
+                <a href="./index.html"> Home</a> 
+                <a href="./about.html">About MDHL</a>
+                <a href="./contact.html">Contact</a>
+                <a href="./game_info.html">Game Info</a>
+                <a href="./rules.html">Rules</a>
+                <a href="./registration.html">Registration Form</a>                           
+            </nav>
+            <img src="./assets/task2/design2_image1.jpg" alt="banner" id="banner">                                                     
+</header>
     <main>
-        <h1>Registration Form</h1>
+        <h2>Registration Form</h2>
         <form action="./show_data.html" method="get">
             <fieldset>
                 <label>
@@ -24,10 +36,14 @@
                     Last Name:
                     <input type="text" name="flast" id="flast">
                 </label>
+            </fieldset>
+            <fieldset>
                 <label for="address">
                     Street Address:
                     <input type="text" name="address" id="address">
                 </label>
+            </fieldset>
+            <fieldset>
                 <label for="city">
                     City:
                     <input type="text" name="city" id="city">
@@ -36,48 +52,49 @@
                     Zip Code:
                     <input type="number" id="zipCode" name="zipCode" min="1000" max="99999">
                 </label>
+            </fieldset>
+            <fieldset>
                 <label>
-                    Birth Date(mm/dd/yyyy):
+                    Birth Date(mm/dd/yyyy)
                     <input type="date" name="birthdate">
                 </label>
-                <div>
-                    <p>Gender</p>
-                    <label>
-                        Female
-                        <input type="radio" name="gender" value="F">
-                    </label>
-                    <label>
-                        Male
-                        <input type="radio" name="gender" value="M">
-                    </label>
-                </div>
-                <div>
-                    <p>Grade:</p>
-                    <label>
-                        Pre-School
-                        <input type="radio" name="grade" value="preschool">
-                    </label>
-                    <label>
-                        1st
-                        <input type="radio" name="grade" value="first">
-                    </label>
-                    <label>
-                        2nd
-                        <input type="radio" name="grade" value="second">
-                    </label>
-                    <label>
-                        3rd
-                        <input type="radio" name="grade" value="third">
-                    </label>
-                    <label>
-                        4th
-                        <input type="radio" name="grade" value="fourth">
-                    </label>
-                    <label>
-                        5th
-                        <input type="radio" name="grade" value="fifth">
-                    </label>
-                </div>
+                Gender
+                <br>
+                <label>  
+                    Female
+                    <input type="radio" name="gender" value="F">
+                </label>
+                <label>
+                    Male
+                    <input type="radio" name="gender" value="M">
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Grade:</legend>
+                <label>
+                    Pre-School
+                    <input type="radio" name="grade" value="preschool">
+                </label>
+                <label>
+                    1st
+                    <input type="radio" name="grade" value="first">
+                </label>
+                <label>
+                    2nd
+                    <input type="radio" name="grade" value="second">
+                </label>
+                <label>
+                    3rd
+                    <input type="radio" name="grade" value="third">
+                </label>
+                <label>
+                    4th
+                    <input type="radio" name="grade" value="fourth">
+                </label>
+                <label>
+                    5th
+                    <input type="radio" name="grade" value="fifth">
+                </label>
             </fieldset>
 
             <fieldset>
@@ -148,7 +165,7 @@
 
             <fieldset>
                 <legend>Permission to Play</legend>
-                <p>I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of physical injury associated with hockey and in consideration for the "League" accepting the registrant for its hockey programs and activities, I hereby release, discharge, and/or otherwise indemnify MDHL, their employees and associated personnel and volunteers, including the facilities used for practices and games, against any claim by or on behalf of the registrant as a result of the registrant's participation in the programand/orbeing transported to or from MDHL sponsored activities, which transportation. <br>
+                <p id="permission">I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of physical injury associated with hockey and in consideration for the "League" accepting the registrant for its hockey programs and activities, I hereby release, discharge, and/or otherwise indemnify MDHL, their employees and associated personnel and volunteers, including the facilities used for practices and games, against any claim by or on behalf of the registrant as a result of the registrant's participation in the programand/orbeing transported to or from MDHL sponsored activities, which transportation. <br>
                 By entering your name below, I agree and authorize the above. In addition, by signing below, I also acknowledge that I have read the cancellation policy and agree to its terms.</p>
                 <label>
                     Parent/Guardian Signature:

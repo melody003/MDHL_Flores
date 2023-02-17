@@ -176,7 +176,7 @@ aside{
 }
 
 aside p, b{
-    font-size: 2rem;
+    font-size: 1rem;
     display: flex;
 
 }
@@ -191,7 +191,7 @@ aside div{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    margin-right: 70rem;
+    margin-right: 50rem;
 }
 
 
@@ -204,6 +204,31 @@ aside div{
     margin-top: 0.5rem;
     font-size: 1.5rem;
     font-style: italic;
+}
+
+iframe{
+    width: max-content;
+    height: max-content;
+    display: flex;
+    margin: 2rem;
+    border:0; 
+}
+
+.caja_mayor{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+
+#maps{
+    text-align: center;
+    font-size: 2.5rem;
+    background-color: #ce472a;
+    color: #f5f0ee;
+}
+h4{
+    font-size: 1.5rem;
 }
 
 /* RULES*/
@@ -245,4 +270,27 @@ dt{
 .data{
     background-color: #f78668;
     border-radius: 5px;
+}
+
+/* Registration */
+
+fieldset{
+    font-size: 1rem;
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+label{
+    margin: .5rem;
+}
+
+#permission{
+    font-size: 1.5rem;
+}
+
+legend{
+    font-size: 1.5rem;
 }
