@@ -229,6 +229,12 @@ iframe{
 }
 h4{
     font-size: 1.5rem;
+    text-align: center;
+    background-color: #f78668;
+    color: #eae2df;
+    border-radius: 10%;
+    display: inline-block;
+    margin-left: 5rem;
 }
 
 /* RULES*/
@@ -288,7 +294,7 @@ label{
 }
 
 #permission{
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 legend{
